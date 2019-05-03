@@ -1,0 +1,67 @@
+html {
+  font-size: 10px; }
+
+.box {
+  border: 2px solid black;
+  font-size: 1.4rem;
+  border-radius: 2px; }
+
+nav {
+  background-color: #FFB4B0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.nav__links {
+  margin-bottom: 0;
+  padding-left: 1.5rem; }
+  .nav__links li {
+    display: inline-block;
+    padding-left: 0.2rem;
+    width: 9rem; }
+    .nav__links li a {
+      line-height: 6rem;
+      display: block;
+      border-right: 2px solid #000;
+      color: #000;
+      text-decoration: none; }
+      .nav__links li a.last {
+        border-right: 0; }
+      .nav__links li a:hover {
+        color: #ff534a; }
+  .nav__links .is-hidden {
+    display: none; }
+
+.uiContainer--wrapper {
+  padding-right: 0;
+  background-color: #FEFAC0; }
+  .uiContainer--wrapper input {
+    font-size: 2em; }
+.uiContainer__song-list {
+  height: 538px;
+  padding-right: 0;
+  overflow: scroll; }
+  .uiContainer__song-list .song-list {
+    list-style-type: none; }
+    .uiContainer__song-list .song-list li {
+      margin-bottom: 1rem; }
+    .uiContainer__song-list .song-list__item--data {
+      padding-left: 0; }
+      .uiContainer__song-list .song-list__item--data li {
+        display: inline-block;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+        border-right: 2px solid #000; }
+        .uiContainer__song-list .song-list__item--data li:last-of-type {
+          border-right: none; }
+        .uiContainer__song-list .song-list__item--data li:first-of-type {
+          padding-left: 0; }
+    .uiContainer__song-list .song-list .song-title {
+      color: #785616;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem; }
+    .uiContainer__song-list .song-list .delete-btn {
+      background: grey;
+      width: 80px;
+      padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
